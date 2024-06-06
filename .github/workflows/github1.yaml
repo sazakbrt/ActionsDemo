@@ -68,7 +68,7 @@ jobs:
       - name: Step3
         shell: bash
         env:
-          var2 = deg2
+          var2 : deg2
         run: |
           echo "var3=deg3" >> $GITHUB_ENV
           echo "${{ env.var2 }}"
